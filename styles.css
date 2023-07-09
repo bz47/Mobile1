@@ -12,6 +12,7 @@ main {
   flex-direction: column;
   background-color: rebeccapurple;
   width: 100%;
+  min-width: fit-content;
   padding: 5%;
   align-items: center;
 }
@@ -29,6 +30,12 @@ main {
   margin-top: 5%;
 }
 
+.colors {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 .box {
   background-color: bisque;
   width: clamp(10%, 20%, 30%);
@@ -38,7 +45,9 @@ main {
   display: inline-block;
   text-align: center;
   width: 40%;
+  min-width: fit-content;
   margin-top: 2%;
+  margin-bottom: 2%;
   background-color: orange;
   font-size: 2rem;
 }
@@ -47,6 +56,7 @@ main {
   display: inline-block;
   text-align: center;
   width: 40%;
+  min-width: fit-content;
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: green;
