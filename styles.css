@@ -63,8 +63,14 @@ main {
   font-size: 2rem;
 }
 
-@media (min-height: 200px) or (orientation: landscape) {
+@media (min-height: 200px) {
   main {
     height: 100vh;
+  }
+}
+
+@media (orientation: landscape) {
+  main {
+    height: fit-content;
   }
 }
