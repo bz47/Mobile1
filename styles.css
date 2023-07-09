@@ -12,10 +12,17 @@ main {
   background-color: rebeccapurple;
   width: 100%;
   text-align: center;
-  padding: 5%;
+  padding: 3%;
 }
 
-li {
-  list-style: none;
-  text-align: center;
+.holder {
+  display: flex;
+  gap: 3%;
+  border: solid orange 2px;
+  padding: 2%;
+}
+
+.box {
+  background-color: bisque;
+  width: clamp(10%, 20%, 30%);
 }
