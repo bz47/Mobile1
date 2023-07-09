@@ -5,19 +5,27 @@
 body {
   margin: 0;
   display: flex;
-  flex-direction: column;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   background-color: rebeccapurple;
   width: 100%;
-  text-align: center;
+  height: 100vh;
   padding: 5%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text {
+  width: 50%;
 }
 
 .holder {
   display: flex;
   gap: 3%;
+  width: 100%;
   border: solid orange 2px;
   padding: 2%;
   margin-top: 5%;
@@ -30,17 +38,19 @@ main {
 
 .orange {
   display: inline-block;
-
+  text-align: center;
   width: 40%;
-  margin-right: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
   background-color: orange;
+  font-size: 2rem;
 }
 
 .green {
   display: inline-block;
+  text-align: center;
   width: 40%;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   background-color: green;
+  font-size: 2rem;
 }
