@@ -20,9 +20,27 @@ main {
   gap: 3%;
   border: solid orange 2px;
   padding: 2%;
+  margin-top: 5%;
 }
 
 .box {
   background-color: bisque;
   width: clamp(10%, 20%, 30%);
+}
+
+.orange {
+  display: inline-block;
+
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: orange;
+}
+
+.green {
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+  background-color: green;
 }
