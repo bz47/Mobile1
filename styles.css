@@ -11,4 +11,11 @@ body {
 main {
   background-color: rebeccapurple;
   width: 100%;
+  text-align: center;
+  padding: 5%;
+}
+
+li {
+  list-style: none;
+  text-align: center;
 }
