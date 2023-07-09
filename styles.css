@@ -62,9 +62,3 @@ main {
   background-color: green;
   font-size: 2rem;
 }
-
-@media (min-height: 200px) {
-  main {
-    height: 100vh;
-  }
-}
