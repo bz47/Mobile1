@@ -13,6 +13,7 @@ main {
   background-color: rebeccapurple;
   width: 100%;
   min-width: fit-content;
+  min-height: 100vh;
   padding: 5%;
   align-items: center;
 }
