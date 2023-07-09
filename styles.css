@@ -14,7 +14,6 @@ main {
   width: 100%;
   padding: 5%;
   align-items: center;
-  justify-content: space-around;
 }
 
 .text {
@@ -52,10 +51,4 @@ main {
   margin-bottom: 2%;
   background-color: green;
   font-size: 2rem;
-}
-
-@media (min-height: 600px) {
-  main {
-    height: 100vh;
-  }
 }
