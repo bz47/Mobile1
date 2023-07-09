@@ -68,9 +68,3 @@ main {
     height: 100vh;
   }
 }
-
-@media (orientation: landscape) {
-  main {
-    height: fit-content;
-  }
-}
